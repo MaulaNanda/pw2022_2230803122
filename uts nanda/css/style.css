@@ -1,0 +1,122 @@
+.container{
+    width: 700px;
+    height: 650px;
+    background-color:white;
+    border-radius: 50px 0px 50px 0px;
+    border: groove 2px black;
+    margin: 0 auto;
+}
+.kiri{
+    width: 196px;
+    background-color: darkkhaki;
+    height: 450px;
+    border-radius: 48px 0 0 0 ;
+    border: groove 2px black;
+    float: left;
+}
+.label{
+    background-color: darkolivegreen;
+}
+.logo img{
+    float: left;
+    margin-left: 5px;
+    width: 180px;
+    height: 150px;
+}
+.sidebar{
+    padding: 0;
+    margin: 0;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li{
+    border-bottom:groove 2px black;
+}
+.sidebar ul li a{
+    padding: 0;
+    margin-left: 2px;
+    font-size: 10pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+.kanan{
+    width: 500px;
+    height: 600px;
+    float: right;
+    background-color: darkolivegreen;
+}
+.header{
+    width: 496px;
+    margin: 0;
+    float: left;
+    padding: 0;
+    height: 175px;
+}
+.header img{
+    position: relative;
+    margin-bottom: 5px;
+    bottom: 17px;
+    width: 496px;
+    height: 175px;
+    margin: 0;
+    border: groove 2px rgb(196, 192, 192);
+}
+.menu{
+    width: 496px;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    border: groove 2px black;
+    height: 40px;
+    float: left;
+    background-color: beige;
+
+}
+.menu ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 1px;
+
+}
+.menu ul li{
+    position: relative;
+    top: 3px;
+    left: 2px;
+    float: left;
+    border: groove 1px gray;
+    line-height: 150%;
+    background-color: azure;
+
+}
+.menu ul li:hover{
+    background-color: aquamarine;
+}
+.menu ul li a{
+    margin-top: 1px;
+    text-decoration: none;
+    font-size:7pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px 17px 7px 17px;
+    margin: 1px;
+}
+.content{
+    width: 496px;
+    float: left;
+    height: 378px;
+    background-color: darkolivegreen;
+    border: groove 2px black;
+
+}
+.footer{
+    width: 696px;
+    text-align: center;
+    margin-top: 2px;
+    height: 46px;
+    float: right;
+    border: groove 2px black;
+    border-radius: 0 0 50px 0;
+    background-color: beige;
+}
